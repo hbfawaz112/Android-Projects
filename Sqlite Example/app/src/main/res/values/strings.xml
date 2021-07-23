@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BBMC</string>
+    <string name="login_form_title">BLOOD BANK</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+
+    <string-array name="Bloodtype">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab4.MainActivity">
+    <item
+        android:id="@+id/Nb_chois"
+        android:title="Nombre de choix"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/regions"
+        android:title="regions"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlertDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="24dp"
+            android:onClick="dialog"
+            android:text=" Simple dialog" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button9"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="169dp"
+            android:onClick="dialog2"
+            android:text="Dialog list" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button16"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="182dp"
+            android:onClick="dialog3"
+            android:text="Dialog checkbox" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="dialog4"
+            android:text="dialog radioButton" />
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>

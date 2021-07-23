@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidToMySQL</string>
+    <string name="localServer">http://192.168.0.104:1080/labphp/android</string>
+    <string name="distantServer">http://ulfs5.net/I3/I3350</string>
+</resources>

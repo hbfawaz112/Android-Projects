@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimePicker"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TimePicker
+                android:id="@+id/time1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TimePicker>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30sp" />
+
+            <TimePicker
+                android:id="@+id/time2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:timePickerMode="spinner">
+
+            </TimePicker>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="30sp" />
+        </android.widget.LinearLayout>
+    </ScrollView>
+</android.widget.LinearLayout>
